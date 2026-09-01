@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics: null
   locale: id-ID
-  baseUrl: null
+  baseUrl: "iqbalkopling01.github.io/bukusakti-picio"
   ignorePatterns:
     - private
     - _private
