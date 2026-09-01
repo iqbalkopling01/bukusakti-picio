@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: Physiotherapy Pocket Handbook
+message: "If you use this handbook in teaching or derivative educational work, please cite the repository/site."
+type: dataset
+authors:
+  - name: "Physiotherapy Pocket Handbook Contributors"
+version: 1.0.0
+date-released: 2026-09-01
+license: CC-BY-NC-SA-4.0

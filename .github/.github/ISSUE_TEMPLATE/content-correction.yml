@@ -1,0 +1,16 @@
+name: Content correction
+description: Laporkan bagian yang salah, membingungkan, atau berpotensi tidak aman.
+title: "[Correction] "
+labels: [content, correction]
+body:
+  - type: input
+    id: page
+    attributes: { label: Halaman/note, placeholder: "contoh: 60_NEURO/01 Stroke" }
+    validations: { required: true }
+  - type: textarea
+    id: issue
+    attributes: { label: Masalah, description: Jelaskan bagian yang perlu dikoreksi. }
+    validations: { required: true }
+  - type: textarea
+    id: source
+    attributes: { label: Sumber pembanding, description: Guideline/buku/artikel bila relevan. }

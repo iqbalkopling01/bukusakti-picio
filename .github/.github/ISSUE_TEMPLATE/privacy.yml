@@ -1,0 +1,9 @@
+name: Privacy or copyright concern
+description: Laporkan data pribadi atau materi yang seharusnya tidak dipublikasikan.
+title: "[Privacy] "
+labels: [privacy, urgent]
+body:
+  - type: textarea
+    id: concern
+    attributes: { label: Detail masalah, description: Jangan ulangi data sensitif lebih dari yang diperlukan. }
+    validations: { required: true }
